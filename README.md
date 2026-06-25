@@ -1,5 +1,5 @@
 # platform-integrity-analytics
-his repository contains case studies in platform integrity, risk mitigation, and algorithmic accountability.
+This repository contains case studies in platform integrity, risk mitigation, and algorithmic accountability.
 # Platform Integrity Analytics
 
 This repository houses a collection of data science projects focused on **platform integrity, trust & safety, and algorithmic accountability**. It demonstrates the application of machine learning to mitigate operational risk, optimize moderation workflows, and ensure a safer user experience on large-scale digital platforms.
