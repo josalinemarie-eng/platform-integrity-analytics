@@ -21,5 +21,4 @@ This repository houses data science initiatives focused on **platform integrity,
 platform-integrity-analytics/
 ├── README.md             # Project index and operational documentation
 ├── notebooks/            # Jupyter notebooks containing end-to-end pipelinesach case study
-├── requirements.txt      # Dependencies for reproduction
 └── data/                 # Sample data/schemas (where applicable)
