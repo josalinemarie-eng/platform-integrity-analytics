@@ -25,6 +25,16 @@ This phase expands beyond initial exploratory data analysis to build predictive 
 * **Class Imbalance Handling:** Addressed heavy target imbalance (~6.3% minority class) by executing oversampling techniques to achieve a balanced 50/50 target distribution prior to model training[cite: 3].
 * **Feature Engineering:** Extracted character-level length metrics (`text_length`) from video transcription text to analyze structural variations in user claims across status cohorts[cite: 3].
 
+* ---
+
+## Next Steps : Transitioning to Project SOMA — From Exploration to Modular Architecture
+
+Building directly upon the predictive patterns and data preprocessing frameworks established in Phase 2, this next phase transitions raw exploratory notebooks into **Project SOMA**—an open-source, modular AI content moderation and risk classification concept.
+
+* **Framework Integration:** Translates static data cleansing and logistic regression classifiers into reusable Python modules (`src/`) designed for dynamic policy configuration and automated execution.
+* **Dual-Pathway Routing Logic:** Implements an automated triage architecture that routes high-confidence risk predictions directly to mitigation workflows while queuing ambiguous edge cases for specialist review.
+* **Scalable Trust & Safety Operations:** Bridges the gap between exploratory data science and production-minded risk governance, aligning machine learning outputs with enterprise content integrity guardrails.
+
 ---
 
 ## Repository Structure
