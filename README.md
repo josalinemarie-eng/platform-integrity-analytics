@@ -16,6 +16,15 @@ This repository houses data science initiatives focused on **platform integrity,
 
 ---
 
+## Phase 2: Exploratory Data Analysis & Predictive Modeling for Content Moderation
+
+This phase expands beyond initial exploratory data analysis to build predictive machine learning workflows aimed at automated content moderation and account risk classification.
+
+* **Core Objective:** Build a predictive classification workflow to identify unverified vs. verified account behaviors and high-risk claim profiles, optimizing content routing for human moderation review[cite: 3].
+* **Data Cleansing & Integrity:** Handled missingness by removing non-random logging gaps across video engagement metrics, preserving 19,084 high-signal rows (~98.5% of total dataset)[cite: 3].
+* **Class Imbalance Handling:** Addressed heavy target imbalance (~6.3% minority class) by executing oversampling techniques to achieve a balanced 50/50 target distribution prior to model training[cite: 3].
+* **Feature Engineering:** Extracted character-level length metrics (`text_length`) from video transcription text to analyze structural variations in user claims across status cohorts[cite: 3].
+
 ## Repository Structure
 
 ```text
