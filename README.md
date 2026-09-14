@@ -25,10 +25,12 @@ This phase expands beyond initial exploratory data analysis to build predictive 
 * **Class Imbalance Handling:** Addressed heavy target imbalance (~6.3% minority class) by executing oversampling techniques to achieve a balanced 50/50 target distribution prior to model training[cite: 3].
 * **Feature Engineering:** Extracted character-level length metrics (`text_length`) from video transcription text to analyze structural variations in user claims across status cohorts[cite: 3].
 
+---
+
 ## Repository Structure
 
 ```text
 platform-integrity-analytics/
 ├── README.md             # Project index and operational documentation
 ├── notebooks/            # End-to-end pipelines and case studies
-└── data/                 # Sample data schemas and processing manifestspplicable)
+└── data/                 # Sample data schemas and processing manifests
